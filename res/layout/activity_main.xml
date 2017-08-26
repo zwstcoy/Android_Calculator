@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top|center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#f5fcfdea">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:textSize="70sp"
+        android:textStyle="bold|italic"
+        android:textColor="#484242" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Equation"
+        android:id="@+id/equation_button"
+        android:background="#fbcccc"
+        android:textSize="35sp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Matrix"
+        android:id="@+id/matrix_button"
+        android:layout_gravity="center_horizontal"
+        android:background="#fae1a7"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Line Equation"
+        android:id="@+id/line_button"
+        android:layout_gravity="center_horizontal"
+        android:background="#bff6c6"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Plane Equation"
+        android:id="@+id/plane_button"
+        android:layout_gravity="center_horizontal"
+        android:background="#85faed"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2017 Copy Right by Tong"
+        android:id="@+id/textView3"
+        android:layout_gravity="bottom|center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5fdf1eb">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choese one of the blew"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:textSize="35sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Addition"
+        android:id="@+id/add_button"
+        android:layout_marginTop="30dp"
+        android:textSize="40sp"
+        android:background="#f6fa89" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Multiply"
+        android:id="@+id/multiply_button"
+        android:textSize="40sp"
+        android:background="#fbd8ab" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Determent"
+        android:id="@+id/determent_button"
+        android:textSize="40sp"
+        android:background="#f9a6a6" />
+</LinearLayout>
