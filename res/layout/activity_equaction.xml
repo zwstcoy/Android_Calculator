@@ -2,11 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Equaction Page"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30sp" />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/equation"
-        android:text="Enter here                "
+        android:hint="Enter here (Ex: 7+5*8+(4+6) )"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="16dp" />
     <Button

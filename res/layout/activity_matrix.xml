@@ -21,7 +21,7 @@
         android:id="@+id/add_button"
         android:layout_marginTop="30dp"
         android:textSize="40sp"
-        android:background="#f6fa89" />
+        android:background="#fbfdbf" />
 
     <Button
         android:layout_width="match_parent"
@@ -37,5 +37,5 @@
         android:text="Determent"
         android:id="@+id/determent_button"
         android:textSize="40sp"
-        android:background="#f9a6a6" />
+        android:background="#fdc4c4" />
 </LinearLayout>

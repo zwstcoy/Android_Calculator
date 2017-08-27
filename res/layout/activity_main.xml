@@ -20,7 +20,7 @@
         android:layout_height="100dp"
         android:text="Equation"
         android:id="@+id/equation_button"
-        android:background="#fbcccc"
+        android:background="#fce3e3"
         android:textSize="35sp" />
 
 
@@ -30,7 +30,7 @@
         android:text="Matrix"
         android:id="@+id/matrix_button"
         android:layout_gravity="center_horizontal"
-        android:background="#fae1a7"
+        android:background="#f9fceecd"
         android:textSize="35sp" />
 
     <Button
@@ -39,7 +39,7 @@
         android:text="Line Equation"
         android:id="@+id/line_button"
         android:layout_gravity="center_horizontal"
-        android:background="#bff6c6"
+        android:background="#cff6d4"
         android:textSize="35sp" />
 
     <Button
@@ -48,7 +48,7 @@
         android:text="Plane Equation"
         android:id="@+id/plane_button"
         android:layout_gravity="center_horizontal"
-        android:background="#85faed"
+        android:background="#b6f8f1"
         android:textSize="35sp" />
 
     <TextView
