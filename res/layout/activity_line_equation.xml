@@ -21,7 +21,8 @@
             android:text="Point:
 Ex:(1,2,3)"
             android:textSize="20sp" />
-        <EditText android:id="@+id/line_point"/>
+        <EditText android:id="@+id/line_point"
+            android:inputType="numberDecimal"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -30,12 +31,13 @@ Ex:(1,2,3)"
         android:layout_margin="16dp">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="65dp"
+            android:layout_width="65dp"
+            android:layout_height="88dp"
             android:text="Vector:
-Ex: <4,5,6>"
+(4,5,6)"
             android:textSize="20sp" />
-        <EditText android:id="@+id/line_vector"/>
+        <EditText android:id="@+id/line_vector"
+            android:inputType="numberDecimal"/>
     </TableRow>
 
     <Button
@@ -57,7 +59,8 @@ Ex: <4,5,6>"
             android:layout_height="wrap_content"
             android:text="Line Equation: "
             android:textSize="20sp" />
-        <EditText android:id="@+id/line_answer"/>
+        <EditText android:id="@+id/line_answer"
+            android:inputType="numberDecimal"/>
     </TableRow>
 
 </LinearLayout>

@@ -9,7 +9,7 @@ import android.widget.Button;
  * Created by Tong on 8/25/2017.
  */
 public class MatrixActivity extends Activity {
-    private Button addButton,mulityButton,determentButton;
+    private Button addButton,mulityButton,determentButton,sumButton,produceButton,dButton;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +38,16 @@ public class MatrixActivity extends Activity {
                 setContentView(R.layout.activity_materix_determent);
             }
         });
+
+        sumButton=(Button)findViewById(R.id.sum_button);
+
+        produceButton=(Button)findViewById(R.id.produce_button);
+
+
+
+
     }
 
 
-
 }
+

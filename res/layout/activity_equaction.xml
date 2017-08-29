@@ -11,14 +11,16 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/equation"
+        android:id="@+id/equation_text"
         android:hint="Enter here (Ex: 7+5*8+(4+6) )"
         android:layout_marginTop="50dp"
-        android:layout_marginLeft="16dp" />
+        android:layout_marginLeft="16dp"
+        android:inputType="phone"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
+        android:id="@+id/equation_button"
         android:layout_margin="16dp"
         android:textSize="20sp"
         android:background="#fdf4f4" />

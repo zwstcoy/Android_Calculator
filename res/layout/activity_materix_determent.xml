@@ -15,7 +15,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginLeft="16dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="85dp"
             android:layout_height="80dp"
             android:text="Matrix 1:
 Ex:|1 2|
@@ -24,8 +24,9 @@ Ex:|1 2|
             android:textColor="#070707" />
         <EditText
             android:hint="Ex: 1 2, 3 4"
+            android:inputType="numberDecimal"
 
-            android:id="@+id/add_matrix1"
+            android:id="@+id/det_matrix1"
             />
     </TableRow>
 

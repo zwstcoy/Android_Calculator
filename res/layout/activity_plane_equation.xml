@@ -16,12 +16,15 @@
         android:layout_margin="16dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="85dp"
             android:layout_height="61dp"
             android:text="Point:
 Ex:(1,2,3)"
             android:textSize="20sp" />
-        <EditText android:id="@+id/plane_point"/>
+        <EditText android:id="@+id/plane_point"
+            android:hint="1 2 3"
+            android:inputType="numberDecimal"/>
+
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -30,12 +33,13 @@ Ex:(1,2,3)"
         android:layout_margin="16dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="85dp"
             android:layout_height="65dp"
-            android:text="Vector:
-Ex: <4,5,6>"
+            android:text="Vector: Ex:(4,5,6)"
             android:textSize="20sp" />
-        <EditText android:id="@+id/plane_vector"/>
+        <EditText android:id="@+id/plane_vector"
+            android:hint="4 5 6"
+            android:inputType="numberDecimal"/>
     </TableRow>
 
     <Button
@@ -57,6 +61,6 @@ Ex: <4,5,6>"
             android:layout_height="wrap_content"
             android:text="Plane Equation: "
             android:textSize="20sp" />
-        <EditText android:id="@+id/plane_answer"/>
+        <TextView android:id="@+id/plane_answer"/>
     </TableRow>
 </LinearLayout>
