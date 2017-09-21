@@ -5,7 +5,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Line Equation Page"
+        android:text="Plane Equation Page"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp" />
 
@@ -23,7 +23,7 @@ Ex:(1,2,3)"
             android:textSize="20sp" />
         <EditText android:id="@+id/plane_point"
             android:hint="1 2 3"
-            android:inputType="numberDecimal"/>
+            android:inputType="phone"/>
 
     </TableRow>
     <TableRow
@@ -39,16 +39,25 @@ Ex:(1,2,3)"
             android:textSize="20sp" />
         <EditText android:id="@+id/plane_vector"
             android:hint="4 5 6"
-            android:inputType="numberDecimal"/>
+            android:inputType="phone"
+            android:enabled="false" />
     </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  missing digit will replace by 0"
+        android:id="@+id/textView2"
+        android:textSize="25sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
-        android:id="@+id/button"
+        android:id="@+id/find_plant_button"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="16dp" />
+        android:layout_margin="16dp"
+        android:stateListAnimator="id" />
 
     <TableRow
         android:layout_width="match_parent"
@@ -61,6 +70,7 @@ Ex:(1,2,3)"
             android:layout_height="wrap_content"
             android:text="Plane Equation: "
             android:textSize="20sp" />
-        <TextView android:id="@+id/plane_answer"/>
+        <TextView android:id="@+id/plane_answer"
+            android:textSize="35sp" />
     </TableRow>
 </LinearLayout>

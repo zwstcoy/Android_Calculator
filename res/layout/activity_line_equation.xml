@@ -22,7 +22,7 @@
 Ex:(1,2,3)"
             android:textSize="20sp" />
         <EditText android:id="@+id/line_point"
-            android:inputType="numberDecimal"/>
+            android:inputType="phone"/>
     </TableRow>
     <TableRow
         android:layout_width="match_parent"
@@ -31,20 +31,26 @@ Ex:(1,2,3)"
         android:layout_margin="16dp">
 
         <TextView
-            android:layout_width="65dp"
+            android:layout_width="85dp"
             android:layout_height="88dp"
-            android:text="Vector:
-(4,5,6)"
+            android:text="Vector: Ex:(4,5,6)"
             android:textSize="20sp" />
         <EditText android:id="@+id/line_vector"
-            android:inputType="numberDecimal"/>
+            android:inputType="phone"/>
     </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  If missing digit will replace by 0"
+        android:id="@+id/textView"
+        android:textSize="25sp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
-        android:id="@+id/button"
+        android:id="@+id/find_line_button"
         android:layout_gravity="center_horizontal"
         android:layout_margin="16dp" />
 
@@ -59,8 +65,12 @@ Ex:(1,2,3)"
             android:layout_height="wrap_content"
             android:text="Line Equation: "
             android:textSize="20sp" />
-        <EditText android:id="@+id/line_answer"
-            android:inputType="numberDecimal"/>
     </TableRow>
+
+    <TextView android:id="@+id/line_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="35sp" />
 
 </LinearLayout>
