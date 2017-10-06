@@ -39,8 +39,7 @@ Ex:(1,2,3)"
             android:textSize="20sp" />
         <EditText android:id="@+id/plane_vector"
             android:hint="4 5 6"
-            android:inputType="phone"
-            android:enabled="false" />
+            android:inputType="phone" />
     </TableRow>
 
     <TextView
@@ -56,8 +55,9 @@ Ex:(1,2,3)"
         android:text="Enter"
         android:id="@+id/find_plant_button"
         android:layout_gravity="center_horizontal"
-        android:layout_margin="16dp"
-        android:stateListAnimator="id" />
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp" />
 
     <TableRow
         android:layout_width="match_parent"
@@ -70,7 +70,11 @@ Ex:(1,2,3)"
             android:layout_height="wrap_content"
             android:text="Plane Equation: "
             android:textSize="20sp" />
-        <TextView android:id="@+id/plane_answer"
-            android:textSize="35sp" />
     </TableRow>
+
+    <TextView android:id="@+id/plane_answer"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>

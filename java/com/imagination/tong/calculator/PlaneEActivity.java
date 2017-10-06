@@ -30,7 +30,6 @@ public class PlaneEActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-
                 String point=plantPoint.getText().toString();
                 String vector=plantVector.getText().toString();
                 String str="Your Miss one";
@@ -56,7 +55,7 @@ class Plane {
 
     public String toString() {
 
-        return norVector.x + "(X+" + -point.x + ")+" + norVector.y + "(Y+" + -point.y + ")+" + norVector.z + "(Z+" + -point.z + ")=0\n" +
-                norVector.x + "X+" + norVector.y + "Y+" + norVector.z + "Z=" + sum;
+        return norVector.x + "(X+" + -point.x + ")+" + norVector.y + "(Y+" + -point.y + ")+" + norVector.z + "(Z+" + -point.z + ")=0\n\n" +
+                norVector.x + "X+" + norVector.y + "Y+" + norVector.z + "Z=" + (float)sum;
     }
 }

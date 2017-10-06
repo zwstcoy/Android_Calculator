@@ -7,6 +7,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import java.text.DecimalFormat;
+
 /**
  * Created by Tong on 8/25/2017.
  */
@@ -48,7 +50,6 @@ public class LineEActivity extends Activity {
                 k=1;
             }
             a = a * k + (n*str.charAt(i++)-'0');
-
         }
         n=1;
         k=10;
@@ -59,19 +60,16 @@ public class LineEActivity extends Activity {
                 k=1;
             }
             b=b*(k)+(str.charAt(i++)-'0')*n;
-
         }
         i++;
         n=1;
         k=10;
-        while(i<str.length()){
+        while(i<str.length()&&str.charAt(i)!=' '){
             if(str.charAt(i)=='.'){
                 n=.1;
                 k=1;
             }
-            c=c*k+(n*str.charAt(i++)-'0');
-
-
+            c=c*k+(str.charAt(i++)-'0')*n;
         }
         double list[]={a,b,c};
         Point point =new Point(list);

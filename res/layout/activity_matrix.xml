@@ -34,7 +34,7 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:text="Determent"
+        android:text="Determinant"
         android:id="@+id/determent_button"
         android:textSize="40sp"
         android:background="#fdc4c4" />

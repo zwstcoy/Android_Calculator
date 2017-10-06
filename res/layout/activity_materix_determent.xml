@@ -5,7 +5,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Matrix Determent Page"
+        android:text="Matrix Determinant Page"
         android:layout_gravity="center_horizontal"
         android:textSize="30sp" />
     <TableRow
@@ -34,7 +34,7 @@ Ex:|1 2|
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="enter"
-        android:id="@+id/determent_button"
+        android:id="@+id/find_d_button"
         android:layout_marginLeft="16dp"
         android:textSize="20sp"
         android:background="#fcebeb" />

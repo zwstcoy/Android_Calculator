@@ -27,7 +27,8 @@
         <EditText
             android:hint="Ex: 1 2, 3 4"
             android:id="@+id/add_matrix1"
-            android:inputType="numberDecimal"
+            android:inputType="phone"
+            android:layout_width="match_parent"
             />
 
     </TableRow>
@@ -48,15 +49,24 @@
         <EditText
             android:hint="Ex: 5 6, 7 8"
             android:id="@+id/add_matrix2"
-            android:inputType="numberDecimal"
+            android:inputType="phone"
             />
 
     </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="please use  &apos;,&apos;  to separe the row"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="enter"
-        android:id="@+id/sum_button"
+        android:text="Enter"
+        android:id="@+id/find_s_button"
         android:layout_marginLeft="30dp"
         android:textSize="20sp"
         android:background="#fcebeb" />
@@ -66,7 +76,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/sum_answer"
         android:textSize="25sp"
-        android:textColor="#0b0b0b" />
+        android:textColor="#0b0b0b"
+        android:layout_gravity="center_horizontal" />
 
 
 </LinearLayout>

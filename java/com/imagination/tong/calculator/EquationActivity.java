@@ -27,9 +27,10 @@ public class EquationActivity extends Activity {
             public void onClick(View v){
                 String s=context.getText().toString();
                String postFix=postfix(s);
-               String sum=result(postFix)+"";
+                float sum=(float)result(postFix);
+               String sumStr=sum+"";
                 answer=(TextView)findViewById(R.id.answer);
-                answer.setText("PostFix:    "+postFix+" \nResult:    "+sum);
+                answer.setText("PostFix:\n    "+postFix+" \nResult:\n    "+sumStr);
 
             }
         });
@@ -87,7 +88,7 @@ public class EquationActivity extends Activity {
         return postFix;
     }
 
-    public static Double result(String str){
+    public static double result(String str){
         double result=0;
         int index=0;
         char c;

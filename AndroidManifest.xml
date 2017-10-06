@@ -20,8 +20,10 @@
         <activity android:name=".LineEActivity"/>
 
         <activity android:name=".MatrixActivity"/>
-        <activity android:name=".PlaneEActivity">
-        </activity>
+        <activity android:name=".PlaneEActivity"/>
+        <activity android:name=".MatrixAdd"/>
+        <activity android:name=".MatrixMultipy"/>
+        <activity android:name=".MatrixDeterminant"/>
 
     </application>
 
